@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PearlTrack.API/PearlTrack.API.csproj" />
+  <Project Path="PearlTrack.Tests/PearlTrack.Tests.csproj" />
+</Solution>
