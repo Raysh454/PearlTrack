@@ -1,0 +1,40 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+*.user
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Secrets and environment-specific config
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json.example
+
+# Dependencies
+.dotnet/
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+
+# OS
+.DS_Store
+Thumbs.db
