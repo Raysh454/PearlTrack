@@ -84,6 +84,8 @@ builder.Services.AddAuthorization(options =>
 // Add services
 builder.Services.AddScoped<ITokenService, JwtTokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 // Add controllers and OpenAPI
 builder.Services.AddControllers();
